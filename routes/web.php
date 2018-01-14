@@ -14,8 +14,14 @@
 
 Route::get('/', 'PageController@home');
 Route::get('/leagues/', 'PageController@leagues');
+Route::get('/forum', 'PageController@underconstruction');
+Route::get('/cockpit', 'PageController@underconstruction');
+Route::get('/aboutsims', 'PageController@underconstruction');
+
+Route::get('/LFS', 'SimController@LFS');
+Route::get('/RaceRoom', 'SimController@RaceRoom');
 
 Route::get('article/{id}','ArticleController@article');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');

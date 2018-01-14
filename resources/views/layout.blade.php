@@ -22,10 +22,10 @@
         <div class="area-center">
             <ul class="menu">
                 <li><a href="/">Sākums</a></li>
-                <li><a href="#Forums">Forums</a></li>
+                <li><a href="/forum">Forums</a></li>
                 <li><a href="/leagues">Līgas</a></li>
-                <li><a href="#Kokpits">Kokpits</a></li>
-                <li><a href="#Ceļvedis">Ceļvedis</a></li>
+                <li><a href="/cockpit">Kokpits</a></li>
+                <li><a href="/aboutsims">Ceļvedis</a></li>
             </ul>
         </div>
         <div id="login-box">
@@ -61,7 +61,7 @@
     <div id="left-menu" class="side-menu">
         <!-- <h3> Ārējās saites </h3>-->
         <ul class="menu">
-            <li><a href="https://www.lfs.net/" target="_blank">Live for Speed</a></li>
+            <li><a href="/LFS">Live for Speed</a></li>
             <li><a href="http://www.assettocorsa.net/en/" target="_blank">Assetto Corsa</a></li>
             <li><a href="https://www.dirtgame.com/uk/home" target="_blank">Dirt Rally</a></li>
             <li><a href="http://game.raceroom.com/" target="_blank">RaceRoom</a></li>

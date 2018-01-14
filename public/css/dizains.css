@@ -151,6 +151,12 @@ Body
     height: 100%;
 }
 
+.lapas-saturs h1
+{
+    font-size: 20pt;
+    text-align: center;
+}
+
 .article-thumb
 {
     width: 100%;
@@ -158,12 +164,14 @@ Body
     min-height: 20px;
     padding: 10px;
     margin-bottom: 5px;
+
 }
 
 #saturs
 {
 	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
-	padding-right: 10%;
+	padding-right: 8%;
+    padding-left: 8%;
 }	
 #saturs h2
 {
@@ -200,6 +208,17 @@ th {
     color: white;
 }
 
+#league-thumb
+{
+    display: block;
+    align-content: center;
+    background-color: green;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    
+}
 
 #top-poga
 {
