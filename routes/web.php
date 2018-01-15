@@ -24,4 +24,4 @@ Route::get('/RaceRoom', 'SimController@RaceRoom');
 Route::get('article/{id}','ArticleController@article');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'PageController@home');

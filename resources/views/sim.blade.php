@@ -2,8 +2,9 @@
 
 @section('content')
 <div>
+    <h2>{{$sim}}</h2>
     <div id="sim-logo">
-        logo
+        <img src="images/{{$sim}}-logo.jpg" alt="Sim-Logo">
     </div>
     <div id="sim-studio">
         studio
