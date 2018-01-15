@@ -2,15 +2,12 @@
 @section('content')
     
     <div class="saturs" id="saturs">
-        <h2>Līgas</h2>
-        <div id="league-thumb">
-            Thumb
-        </div>
-                <div id="league-thumb">
-            Thumb
-        </div>
-                <div id="league-thumb">
-            Thumb
-        </div>
+    <h2>Līgas</h2>
+    @foreach($league as $lea)
+    <div id="league-thumb">
+        <h2>{{$lea->title}}</h2>
+        <p>{{$lea->text}}</p>
+    </div>
+    @endforeach
     </div>
 @stop

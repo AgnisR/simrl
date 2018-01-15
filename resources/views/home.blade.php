@@ -2,13 +2,11 @@
 
 @section('content')
 <div>
+    @foreach($article as $art)
     <div class="article-thumb">
-        <h2>{{$article->title}}</h2>
-        <p>{{$article->text}}</p>
+        <h2>{{$art->title}}</h2>
+        <p>{{$art->text}}</p>
     </div>
-    <div class="article-thumb">
-        <h2>{{$article->title}}</h2>
-        <p>{{$article->text}}</p>        
-    </div>
+    @endforeach
 </div>
 @endsection
