@@ -2,21 +2,20 @@
 
 @section('content')
 <div>
-    <h2>{{$sim}}</h2>
     <div id="sim-logo">
         <img src="images/{{$sim}}-logo.jpg" alt="Sim-Logo">
     </div>
     <div id="sim-studio">
-        studio
+        
     </div>
     <div id="leagues">
-        leagues
+        <h2>leagues</h2>
         @foreach($league as $lea)
             @if($lea->sim==$sim)
-                <div id="league-thumb">
+            <div id="league-thumb"><a href = "/leagues/{{$lea->id}}">
                 <div><img src="images/{{$lea->sim}}-thumb.jpg" alt="Sim-Logo"></div>
-                <p><a href = "">{{$lea->name}}</a></p>
-                </div>
+                <p>{{$lea->name}}</p></a>
+            </div>
             @endif
         @endforeach
     </div>

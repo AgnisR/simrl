@@ -27,3 +27,4 @@ Auth::routes();
 Route::get('/home', 'PageController@home');
 
 Route::get('leagues/{id}', 'LeagueController@league');
+Route::get('/myleagues', 'LeagueController@)myleagues');

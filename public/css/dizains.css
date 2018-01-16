@@ -253,6 +253,28 @@ th {
 #league-thumb a:link {color: white; text-decoration: none;}
 #league-thumb a:visited {color: white; text-decoration: none;}
 
+#leagues 
+{
+    text-align: center;
+}
+#leagues h2
+{
+    padding-top: 10px;
+    font-size: 16pt;
+}
+#leagues p
+{
+    font-size: 14pt;
+}
+#my-leagues
+{
+    font-size: 14pt;
+    background-color: darkgray;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
 #sim-logo img
 {
     width: 100%;
