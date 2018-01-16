@@ -26,6 +26,10 @@ Body
 	margin-bottom: 0px;
 }
 
+.lapas-centrs a:link {color: black;text-decoration: none;}
+.lapas-centrs a:visited {color: black;text-decoration: none;}
+.lapas-centrs a:hover { text-decoration: none;}
+
 .lapas-centrs
 {
     text-align: justify;
@@ -208,17 +212,6 @@ th {
     color: white;
 }
 
-#league-thumb
-{
-    display: block;
-    align-content: center;
-    background-color: green;
-    height: 150px;
-    width: 250px;
-    float: left;
-    margin: 5px;
-    
-}
 
 #top-poga
 {
@@ -244,6 +237,21 @@ th {
 }
 
 
+#league-thumb
+{
+    display: block;
+    align-content: center;
+    background-color: black;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin: 5px;
+    color: white;
+    
+}
+
+#league-thumb a:link {color: white; text-decoration: none;}
+#league-thumb a:visited {color: white; text-decoration: none;}
 
 #sim-logo img
 {

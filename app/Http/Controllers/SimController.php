@@ -5,15 +5,18 @@ namespace App\Http\Controllers;
 use DB;
 use Illuminate\Http\Request;
 use App\articles;
+use App\leagues;
 
 class SimController extends Controller
 {
     public function LFS(){
         $sim="Live for Speed";
-        return view('sim')->with('sim', $sim);
+        $league = leagues::all();
+        return view('sim')->with('sim', $sim)->with('league', $league);
     }
         public function RaceRoom(){
         $sim="RaceRoom";
-        return view('sim')->with('sim', $sim);
+        $league = leagues::all();
+        return view('sim')->with('sim', $sim)->with('league', $league);
     }
 }

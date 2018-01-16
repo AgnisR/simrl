@@ -11,6 +11,14 @@
     </div>
     <div id="leagues">
         leagues
+        @foreach($league as $lea)
+            @if($lea->sim==$sim)
+                <div id="league-thumb">
+                <div><img src="images/{{$lea->sim}}-thumb.jpg" alt="Sim-Logo"></div>
+                <p><a href = "">{{$lea->name}}</a></p>
+                </div>
+            @endif
+        @endforeach
     </div>
 </div>
 @stop

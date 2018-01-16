@@ -4,8 +4,8 @@
     <title>Sim racing Latvia</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/dizains.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/dizains.css" />
 	<!--
     <script type="text/javascript" src="simlist.js"></script>
 	<script type="text/javascript" src="skripts.js"></script>
@@ -15,7 +15,7 @@
 
 <div class="lapas-centrs">	
     <div class="headeris" id="Sākums">
-        <img src="images/headeris.jpg" alt="LFS header">
+        <img src="/images/headeris.jpg" alt="LFS header">
     </div>
     <div id="top-menu">
 
