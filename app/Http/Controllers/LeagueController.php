@@ -16,6 +16,7 @@ class LeagueController extends Controller
         return view ('oneleague')->with('league', $league)->with('sim', $sim);
     }
     public function myleagues(){
-        return view ('myleagues');
+        $league = leagues::all();
+        return view('myleagues')->with('league', $league);
     }
 }

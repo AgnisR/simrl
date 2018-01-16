@@ -49,6 +49,11 @@ Body
     overflow: hidden;
 }
 
+.lapas-saturs h1
+{
+    margin-bottom: 15px;
+}
+
 #login-box
 {
     position:absolute;
@@ -163,12 +168,15 @@ Body
 
 .article-thumb
 {
-    width: 100%;
-    background-color: rgba(255,0,0,1);
+    width: 95;
+    background-color: rgba(200,200,200,0.4);
     min-height: 20px;
     padding: 10px;
     margin-bottom: 5px;
-
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 4px; 
 }
 
 #saturs
@@ -278,4 +286,16 @@ th {
 #sim-logo img
 {
     width: 100%;
+}
+
+#oneleague h2
+{
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+#oneleague small
+{
+    font-size: 10pt;
+    margin-top: 10px;
+    padding-bottom: 5px;
 }
